@@ -1,5 +1,6 @@
 # Taufan
 try out refactory back end
+
 gagal migrate data yang ada di migrations folder
 memasukkan data dari api.php
 1. menampilkan data
@@ -7,7 +8,7 @@ membuka postman masuk ke GET menu dan ketik http://localhost:8000/api/items lalu
 
 2. menambah data :
 
-buka api.php ,asukkan di dalam return kode tersebut 
+buka api.php masukkan di dalam return kode tersebut 
 Route::get('items', function (){
  Item::all();
  return ['nama : (diisi)', 'harga : (diisi)','deskripsi :(diisi)', 'stok : (diisi)'});
